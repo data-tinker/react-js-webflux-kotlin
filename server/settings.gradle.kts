@@ -1,1 +1,1 @@
-rootProject.name = "webflux-security"
+rootProject.name = "server"

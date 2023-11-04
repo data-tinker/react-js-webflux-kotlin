@@ -46,7 +46,6 @@ export const AuthProvider = ({children}) => {
       dispatch({type: SET_SIGN_IN_ERROR, payload: false});
       dispatch({type: SET_SIGN_IN_ERROR_MSG, payload: ''});
       sessionStorage.setItem('token', token);
-      setUser({token});
     } catch (error) {
       console.log(error);
       dispatch({type: SET_TOKEN, payload: null});
